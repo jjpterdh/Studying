@@ -12,6 +12,10 @@ struct ContentView: View {
         Text("Hello, world!")
             .padding()
             .foregroundColor(Color.mint)
+        Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
+            Text("This is button")
+                .padding()
+        }
     }
 }
 
