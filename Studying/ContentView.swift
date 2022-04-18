@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
+            .foregroundColor(Color.mint)
     }
 }
 
@@ -19,3 +20,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+//git commit test
